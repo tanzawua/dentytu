@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity9">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/fondo"
+                android:layout_width="500dp"
+                android:layout_height="1000dp"
+                android:contentDescription="todo1"
+                android:foregroundGravity="center"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.505"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.0"
+                app:srcCompat="@mipmap/fondo45" />
+
+            <Button
+                android:id="@+id/button6"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:background="@drawable/custon_button2"
+                android:fontFamily="@font/fuente6"
+                android:text="pagos"
+                android:textColor="#F8F5F5"
+                android:textSize="30sp"
+                app:backgroundTint="@null"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:fontFamily="@font/fuente6"
+                android:text="metodos de pago"
+                android:textAlignment="center"
+                android:textColor="#ffff"
+                android:textSize="30sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/button6" />
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="135dp"
+                android:layout_height="115dp"
+                app:layout_constraintBottom_toTopOf="@+id/button"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView2"
+                app:srcCompat="@mipmap/ganancia" />
+
+            <Button
+                android:id="@+id/button"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_marginBottom="15dp"
+                android:background="@drawable/custon_button"
+                android:fontFamily="@font/fuente6"
+                android:text="bancolombia"
+                android:textColor="#ffff"
+                android:textSize="25sp"
+                app:backgroundTint="@null"
+                app:layout_constraintBottom_toTopOf="@+id/b"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent" />
+
+            <Button
+                android:id="@+id/b"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_marginBottom="15dp"
+                android:background="@drawable/custon_button"
+                android:fontFamily="@font/fuente6"
+                android:text="davivienda"
+                android:textSize="25sp"
+                app:backgroundTint="@null"
+                app:layout_constraintBottom_toTopOf="@+id/bx"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent" />
+
+            <Button
+                android:id="@+id/bx"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_marginBottom="15dp"
+                android:background="@drawable/custon_button"
+                android:fontFamily="@font/fuente6"
+                android:text="nequi"
+                android:textSize="25sp"
+                app:backgroundTint="@null"
+                app:layout_constraintBottom_toTopOf="@+id/lollo"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent" />
+
+            <Button
+                android:id="@+id/lollo"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_marginBottom="15dp"
+                android:background="@drawable/custon_button"
+                android:fontFamily="@font/fuente6"
+                android:text="daviplata"
+                android:textSize="25sp"
+                app:backgroundTint="@null"
+                app:layout_constraintBottom_toTopOf="@+id/imageView4"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="1.0"
+                app:layout_constraintStart_toStartOf="parent" />
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="135dp"
+                android:layout_height="115dp"
+                app:layout_constraintBottom_toTopOf="@+id/baloto"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:srcCompat="@mipmap/dinero" />
+
+            <Button
+                android:id="@+id/FACILISIMO"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+
+                android:layout_marginBottom="15dp"
+                android:background="@drawable/custon_button"
+                android:fontFamily="@font/fuente6"
+                android:text="facilisimo"
+                android:textSize="25sp"
+
+                app:backgroundTint="@null"
+                app:layout_constraintBottom_toTopOf="@+id/SERVIENTREGA"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent" />
+
+            <Button
+                android:id="@+id/baloto"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_marginBottom="15dp"
+                android:background="@drawable/custon_button"
+                android:fontFamily="@font/fuente6"
+                android:text="BALOTO"
+                android:textSize="25sp"
+                app:backgroundTint="@null"
+                app:layout_constraintBottom_toTopOf="@+id/FACILISIMO"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent" />
+
+            <Button
+                android:id="@+id/SERVIENTREGA"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:background="@drawable/custon_button"
+                android:fontFamily="@font/fuente6"
+                android:text="SERVIENTREGA"
+                android:textSize="25sp"
+                app:backgroundTint="@null"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    </ScrollView>
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
